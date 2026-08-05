@@ -1,0 +1,13 @@
+base_config:
+  - common.yaml
+
+experiment:
+  name: srdiff_cmca_sevir
+
+logging:
+  tensorboard:
+    name: srdiff_cmca_sevir
+
+pipeline:
+  meta:
+    condition_type: cmca

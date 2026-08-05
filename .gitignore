@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Local data, checkpoints, logs, and experiment outputs
+work_dirs/
+lightning_logs/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.log
+
+# Local cluster configuration
+*.hosts
+.env
+.env.*
+!.env.example
